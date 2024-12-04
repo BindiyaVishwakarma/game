@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://w0.peakpx.com/wallpaper/90/456/HD-wallpaper-buy-snake-pass-snake-game.jpg'); /* Add your background image here */
+}
+
+h1 {
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(29, 8, 80);
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+canvas {
+    border: 3px solid white;
+}
+
+.info {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#startButton {
+    background: none;
+    border: none; 
+    padding: 0; 
+}
+
+#startButton{
+    width: 40px;
+    display: block; /* Remove any inline block gap */
+}
+
+#restartButton {
+    background-color: rgb(107, 207, 167);
+    border-radius: 10px;
+    font-size: 30px;
+    color: rgb(4, 51, 72);
+    font-weight: bold;
+}
+
+p{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
